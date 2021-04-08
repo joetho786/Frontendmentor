@@ -89,4 +89,35 @@ body{
     body{
         margin-left: 15%;
     }
+    #Sedans{
+        border-radius: 10px 10px 0px 0px;
+    }
+    #Luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+}
+@media screen and (max-width: 775px){
+    
+    #Sedans{
+        border-radius: 10px 10px 0px 0px;
+    }
+    #Luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+@media screen and (max-width: 1148px) and (min-width:778px){
+    
+    #Sedans{
+        border-radius: 10px 0px 0px 10px;
+    }
+    #suv{
+        border-radius: 0px 10px 10px 0;
+    }
+    #Luxury{
+        border-radius: 0px 0px 10px 10px;
+        margin-top: 2px;
+        margin-left: 20%;
+    }
+
 }
